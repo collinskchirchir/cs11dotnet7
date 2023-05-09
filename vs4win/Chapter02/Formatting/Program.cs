@@ -1,11 +1,5 @@
-﻿// Four parameter values can use named arguments.
-//Console.WriteLine(
-//format: "{0} {1} lived in {2}, {3}.",
-//arg0: "Roger", 
-//arg1: "Cevung",
-//arg2: "Stockholm", 
-//arg3: "Sweden");
-// Five or more parameter values cannot use named arguments.
-Console.WriteLine(
-format: "{0} {1} lived in {2}, {3} and worked in the {4} team at {5}.",
-"Roger", "Cevung", "Stockholm", "Sweden", "Education", "Optimizely");
+﻿Console.Write("Type your first name and press ENTER: ");
+string firstName = Console.ReadLine();
+Console.Write("Type your age and press ENTER: ");
+string age = Console.ReadLine();
+Console.WriteLine($"Hello {firstName}, you look good for {age}");
