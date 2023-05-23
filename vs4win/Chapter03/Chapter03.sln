@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "Operators\Oper
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{D51786A3-790D-4D0D-B800-79800F2914A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastingConverting", "CastingConverting\CastingConverting.csproj", "{55852763-C366-4D77-B624-E39E75BFF8D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D51786A3-790D-4D0D-B800-79800F2914A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D51786A3-790D-4D0D-B800-79800F2914A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D51786A3-790D-4D0D-B800-79800F2914A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55852763-C366-4D77-B624-E39E75BFF8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55852763-C366-4D77-B624-E39E75BFF8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55852763-C366-4D77-B624-E39E75BFF8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55852763-C366-4D77-B624-E39E75BFF8D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
