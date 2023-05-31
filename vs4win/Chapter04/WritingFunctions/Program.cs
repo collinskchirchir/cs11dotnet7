@@ -1,0 +1,1 @@
+﻿TimesTable(7);
