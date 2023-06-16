@@ -48,3 +48,10 @@ WriteLine($"{fruits.Item1}, {fruits.Item2} there are.");
 // named fields of a tuples
 var fruitNamed = bob.GetNamedFruit();
 WriteLine($"There are {fruitNamed.Number} {fruitNamed.Name}.");
+
+int a = 10;
+int b = 20;
+int c = 30;
+WriteLine($"Before: a = {a}, b = {b}, c = {c}");
+bob.PassingParameters(a, ref b, out c);
+WriteLine($"After: a = {a}, b = {b}, c = {c}");

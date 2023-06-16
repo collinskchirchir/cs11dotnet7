@@ -50,4 +50,16 @@ public class Person : object
         return (Name: "Apples", Number: 5);
     }
 
+    // controlling how parameters are passed
+    public void PassingParameters(int x, ref int y, out int z)
+    {   
+        // out parameters cannot have a default
+        // AND must be initialized inside the method
+        z = 99;
+        // increament each parameter
+        x++;
+        y++;
+        z++;
+    }
+
 }
