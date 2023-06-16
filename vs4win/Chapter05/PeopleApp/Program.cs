@@ -55,3 +55,12 @@ int c = 30;
 WriteLine($"Before: a = {a}, b = {b}, c = {c}");
 bob.PassingParameters(a, ref b, out c);
 WriteLine($"After: a = {a}, b = {b}, c = {c}");
+
+Person sam = new()
+{
+    Name = "Sam",
+    DateOfBirth = new(1966, 9, 1)
+};
+WriteLine(sam.Origin);
+WriteLine(sam.Greeting);
+WriteLine(sam.Age);
